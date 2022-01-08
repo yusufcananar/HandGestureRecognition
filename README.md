@@ -11,7 +11,7 @@ According to data provider, Each dataset line has 8 sequential readings of all 8
 So each line has the following structure:  
 | 1.sensors | 2.sensors | 3.sensors | 4.sensors | 5.sensors | 6.sensors | 7.sensors | 8.sensors | GESTURE_CLASS |   
 | --------- | --------- | --------- | --------- | --------- | --------- | --------- | --------- | ------------- |  
-| 8-sequential data | 8-sequential data | 8-sequential data | 8-sequential data | 8-sequential data | 8-sequential data | 8-sequential data | 8-sequential data | 8-sequential data |  
+| 8-sequential data | 8-sequential data | 8-sequential data | 8-sequential data | 8-sequential data | 8-sequential data | 8-sequential data | 8-sequential data | label |  
 
 Gesture classes were : rock - 0, scissors - 1, paper - 2, ok - 3. Rock, paper, scissors gestures are like in the game with the same name, and OK sign is index finger touching the thumb and the rest of the fingers spread. 
 Each gesture was recorded 6 times for 20 seconds. Each time recording started with the gesture being already prepared and held. Recording stopped while the gesture was still being held. In total there is 120 seconds of each gesture being held in fixed position. All of them recorded from the same right forearm in a short timespan.[2]
